@@ -3689,12 +3689,12 @@
 #endif
 
 // Support for MeatPack G-code compression (https://github.com/scottmudge/OctoPrint-MeatPack)
-//#define MEATPACK_ON_SERIAL_PORT_1
-#define MEATPACK_ON_SERIAL_PORT_2
+#define MEATPACK_ON_SERIAL_PORT_1
+//#define MEATPACK_ON_SERIAL_PORT_2
 
 // Optional: Slightly stricter parsing with small performance gain
 // (only enable if your host MeatPack client supports it)
-//#define MEATPACK_FAST_MODE
+#define MEATPACK_FAST_MODE
 
 //#define GCODE_CASE_INSENSITIVE  // Accept G-code sent to the firmware in lowercase
 
