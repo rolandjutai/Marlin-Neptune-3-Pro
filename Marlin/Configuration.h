@@ -112,7 +112,7 @@
 #define BAUDRATE 115200
 
 // Add USB CDC as a second port for the host
-#define SERIAL_PORT_2 -1
+#define SERIAL_PORT_2 2
 // (USB CDC ignores baud, but define for completeness)
 #define BAUDRATE_2 250000
 
