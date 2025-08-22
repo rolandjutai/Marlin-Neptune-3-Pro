@@ -107,7 +107,14 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
+// Keep the TFT on UART1
 #define SERIAL_PORT 1
+#define BAUDRATE 115200
+
+// Add USB CDC as a second port for the host
+#define SERIAL_PORT_2 -1
+// (USB CDC ignores baud, but define for completeness)
+#define BAUDRATE_2 250000
 
 /**
  * Serial Port Baud Rate
@@ -120,7 +127,6 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 115200
 
 //#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
 
